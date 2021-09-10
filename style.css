@@ -6,9 +6,9 @@ margin: 0;
     font-family: urban;
     src: url(font/Urbanist-VariableFont_wght.ttf);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
     .n1{
-        background-color: 1d75de;
+        background-color: #1d75de;
         display: flex;
         justify-content: space-between;
         padding: 15px 10px;
@@ -35,14 +35,16 @@ margin: 0;
     .menu>ul>li>a{
         text-decoration: none;
         color: white;
-    }
-    .content{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .nd{
         background-color: #ffcdd2;
         width: 100%;
         padding: 65px 0px;
         padding-top: 10%;
+        background-position: center;
+        background-size: cover;
 
     }
     .text{
@@ -52,11 +54,13 @@ margin: 0;
         justify-content: center;
         font-family: urban;
     }
-    .text>img{
+    .imgct>img{
         width: 70%;
-        height: 70%;
+        height: auto;
         margin-top: 10%;
         border-radius: 25px;
+        margin-left: 15%;
+        margin-right: 20%;
     }
     .text>h1{
         margin-top: 5%;
@@ -147,4 +151,147 @@ margin: 0;
         color: #00ff7f;
     }
 
+}
+@media screen and (min-width: 641px){
+    .n1{
+        background-color: #1d75de;
+        padding: 20px 0px;
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    .n2{
+        background-color: black;
+        display: flex;
+        padding: 20px 0px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo>img{
+        width: 230px;
+        padding-left: 30px;
+    }
+    .menu ul li {
+        list-style: none;
+        display: flex;
+        
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        padding-right: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu ul {
+        display: flex;
+    }
+    .content{
+        background-color: #ffcdd2;
+        padding: 100px 100px;
+        font-family: Arial, Helvetica, sans-serif;      
+    }
+    .text h6{
+        font-size: 20px;
+        text-align: center;
+    }  
+    .text h1 {
+        margin-top: 30px;
+        font-size: 100px;
+    }
+    .text h3 {
+        font-size: 30px;
+        margin-top: 50px;
+        font-weight: lighter;
+    }
+    .text button{
+        padding: 25px 60px;
+        border-radius: 35px;
+        border: none;
+        color: white;
+        background-color: black;
+        font-size: 20px;
+        margin-top: 50px;
+        letter-spacing: 2px;
+        font-weight: lighter;
+
+    }
+    .text button:hover{
+         color: #00ff7f;
+    }
+    .nd{
+        display: flex;
+    }
+    .imgct{
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+    .bgcontent2{
+        background-image: url(img/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles\ \(1\).svg);
+        background-color: #2941ab;
+        padding: 200px 100px;
+        height: auto;
+        color: #00ff7f ;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .text2{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .text2 h5 {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .text2 h1{
+        font-size: 100px;
+        margin-top: 60px;
+    }
+    .text2 h2{
+        margin-top: 60px;
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .text2 button{
+        padding: 25px 60px;
+        border: none;
+        border-radius: 35px;
+        margin-top: 60px;
+        background-color: #00ff7f;
+        letter-spacing: 2px;
+        color:#2941ab;
+        font-size: 20px;
+    }
+    .text2 button:hover{
+        color:white;
+    }
+    .footer{
+        background-color:black;
+        display: flex;
+        padding: 100px 20px;
+        color: white;
+        justify-content: center;
+    }
+    .footer1 img{
+        width:300px;
+    }
+    .footerct{
+        display: flex;
+        margin-left: 30px;
+    }
+    ul.congty>h1{
+        margin-top: 30px;
+        margin-left: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    ul.congty>h1:hover{
+        color: #00ff7f;
+    }
 }
